@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cs1wx622r6m72"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_hy4e3"]
+[ext_resource type="Texture2D" uid="uid://dq331nqybcrpl" path="res://Aset-Aset Pemrograman Game/Village/Enemy/slime_attack.png" id="2_bejtl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qnfnd"]
+size = Vector2(112, 108)
+
+[node name="Enemy" type="CharacterBody2D"]
+position = Vector2(382, 155)
+motion_mode = 1
+script = ExtResource("1_hy4e3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.182391, 0.182391)
+texture = ExtResource("2_bejtl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(6, 16)
+shape = SubResource("RectangleShape2D_qnfnd")

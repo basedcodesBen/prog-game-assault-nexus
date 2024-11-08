@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://4qvwx532mm0l"]
+
+[ext_resource type="Script" path="res://boolets.gd" id="1_0ftao"]
+[ext_resource type="Texture2D" uid="uid://baw8swkirbv2k" path="res://Aset-Aset Pemrograman Game/boolets.png" id="2_6b3am"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f150p"]
+radius = 3.0
+height = 48.0
+
+[node name="Area2D" type="Area2D"]
+position = Vector2(124, 64)
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("1_0ftao")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0.5, 2)
+texture = ExtResource("2_6b3am")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("CapsuleShape2D_f150p")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 8.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,162 @@
+[gd_scene load_steps=20 format=3 uid="uid://dp86iny14d8n6"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_edt53"]
+[ext_resource type="Texture2D" uid="uid://rj6lkvwm4tp0" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213306.png" id="2_ptof8"]
+[ext_resource type="Texture2D" uid="uid://bumpgsvyvebes" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213344.png" id="3_vo8km"]
+[ext_resource type="Texture2D" uid="uid://edjriap1hliy" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213430.png" id="4_kdopv"]
+[ext_resource type="Texture2D" uid="uid://w4abnhy1fk0c" path="res://FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png" id="5_jtc3k"]
+[ext_resource type="Texture2D" uid="uid://drb8l4ic5ihyw" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028190340.png" id="6_0dg2g"]
+[ext_resource type="Texture2D" uid="uid://cwa4f81l5iqi5" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028191428.png" id="7_ggevn"]
+[ext_resource type="Texture2D" uid="uid://b0vufvdwglteb" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028192537.png" id="8_p3hnc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qb1av"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(256, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nwqwe"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(320, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pejww"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(384, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4qmj1"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(448, 256, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qhwev"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(256, 320, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_80mai"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(320, 320, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cyt1g"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(384, 320, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65s7r"]
+atlas = ExtResource("5_jtc3k")
+region = Rect2(448, 320, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6eii6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ptof8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vo8km")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kdopv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qb1av")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nwqwe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pejww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4qmj1")
+}],
+"loop": true,
+"name": &"down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_0dg2g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ggevn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_p3hnc")
+}],
+"loop": true,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qhwev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_80mai")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cyt1g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65s7r")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8qt33"]
+radius = 23.5
+height = 61.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bref7"]
+radius = 655.383
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(54, 50)
+scale = Vector2(2, 2)
+script = ExtResource("1_edt53")
+speed = 500.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(5, -1)
+scale = Vector2(0.06, 0.06)
+sprite_frames = SubResource("SpriteFrames_6eii6")
+animation = &"right"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, -4)
+shape = SubResource("CapsuleShape2D_8qt33")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.5, 0.5)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.578
+autostart = true
+
+[node name="Attack" type="Node2D" parent="."]
+
+[node name="BulletTimer" type="Timer" parent="Attack"]
+unique_name_in_owner = true
+wait_time = 1.5
+
+[node name="BulletAttackTimer" type="Timer" parent="Attack/BulletTimer"]
+unique_name_in_owner = true
+wait_time = 0.075
+
+[node name="EnemyDetectionArea" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 4
+monitorable = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyDetectionArea"]
+position = Vector2(2, -1.5)
+shape = SubResource("CircleShape2D_bref7")
+
+[connection signal="timeout" from="Timer" to="." method="spawn_projectile"]
+[connection signal="timeout" from="Attack/BulletTimer" to="." method="_on_bullet_timer_timeout"]
+[connection signal="timeout" from="Attack/BulletTimer/BulletAttackTimer" to="." method="_on_bullet_attack_timer_timeout"]
+[connection signal="body_entered" from="EnemyDetectionArea" to="." method="_on_enemy_detection_area_body_entered"]
+[connection signal="body_exited" from="EnemyDetectionArea" to="." method="_on_enemy_detection_area_body_exited"]
