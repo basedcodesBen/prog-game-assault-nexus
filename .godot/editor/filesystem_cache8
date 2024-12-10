@@ -1,24 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733812159
+::res://::1733817999
 AssaAss (1).png::CompressedTexture2D::4170741515824240214::1733812096::1733812161::1::::<><>::
 AssaAss.png::CompressedTexture2D::5128095773343119046::1733812096::1733812161::1::::<><>::
 boolets.gd::GDScript::-1::1733812096::0::1::::<>Area2D<>::
 boolets.tscn::PackedScene::2069822109571844125::1733812096::0::1::::<><>::res://boolets.gd<>uid://baw8swkirbv2k::::res://Aset-Aset Pemrograman Game/boolets.png
-enemy.gd::GDScript::-1::1733812096::0::1::::Enemy<>CharacterBody2D<>::
-enemy.tscn::PackedScene::6091292892761295283::1733812096::0::1::::<><>::res://enemy.gd<>uid://dq331nqybcrpl::::res://Aset-Aset Pemrograman Game/Village/Enemy/slime_attack.png
+enemy.gd::GDScript::-1::1733814731::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::6091292892761295283::1733815382::0::1::::<><>::res://enemy.gd<>uid://dq331nqybcrpl::::res://Aset-Aset Pemrograman Game/Village/Enemy/slime_attack.png<>uid://bfqc13o4la17::::res://Aset-Aset Pemrograman Game/Village/Enemy/slime_walk1.png<>uid://bmo5j4k4v82ob::::res://Aset-Aset Pemrograman Game/Village/Enemy/slime_blink.png<>uid://bvfv7e7mkwnte::::res://Aset-Aset Pemrograman Game/Village/Enemy/slime_walk2.png
 icon.svg::CompressedTexture2D::610395938598471950::1733812096::1733812161::1::::<><>::
 intro.gd::GDScript::-1::1733812096::0::1::::<>Node2D<>::
 intro.tscn::PackedScene::6499538276930999805::1733812096::0::1::::<><>::res://intro.gd<>uid://oclo1s3ppcsy::::res://AssaAss.png
 main.tscn::PackedScene::3809569692575596485::1733812096::0::1::::<><>::res://player.gd<>uid://w4abnhy1fk0c::::res://FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png<>uid://c4abtwc83dn2r::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/props.png<>uid://cfcn1oqho2pd7::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified transparent.png<>uid://pjtsrrp5rhag::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified.png<>uid://cdsdavjdj0481::::res://tilemap-gras/template2.png<>uid://rbboqksn27j6::::res://tilemap-gras/template.png<>uid://rj6lkvwm4tp0::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213306.png<>uid://bumpgsvyvebes::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213344.png<>uid://edjriap1hliy::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213430.png<>uid://drb8l4ic5ihyw::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028190340.png<>uid://cwa4f81l5iqi5::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028191428.png<>uid://b0vufvdwglteb::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028192537.png
-main_character.tscn::PackedScene::8282116405759850245::1733812096::0::1::::<><>::res://player.gd<>uid://rj6lkvwm4tp0::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213306.png<>uid://bumpgsvyvebes::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213344.png<>uid://edjriap1hliy::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213430.png<>uid://w4abnhy1fk0c::::res://FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png<>uid://drb8l4ic5ihyw::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028190340.png<>uid://cwa4f81l5iqi5::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028191428.png<>uid://b0vufvdwglteb::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028192537.png
-main_compatible.tscn::PackedScene::7597288182310403966::1733812096::0::1::::<><>::uid://c4abtwc83dn2r::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/props.png<>uid://cs1wx622r6m72::::res://enemy.tscn<>uid://dekuddgd2l4s5::::res://Aset-Aset Pemrograman Game/Village/village_template.png<>uid://cfcn1oqho2pd7::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified transparent.png<>uid://pjtsrrp5rhag::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified.png<>uid://cdsdavjdj0481::::res://tilemap-gras/template2.png<>uid://rbboqksn27j6::::res://tilemap-gras/template.png<>uid://4qvwx532mm0l::::res://boolets.tscn<>uid://dp86iny14d8n6::::res://main_character.tscn
+main_character.tscn::PackedScene::8282116405759850245::1733815382::0::1::::<><>::res://player.gd<>uid://rj6lkvwm4tp0::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213306.png<>uid://bumpgsvyvebes::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213344.png<>uid://edjriap1hliy::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213430.png<>uid://w4abnhy1fk0c::::res://FREE Mana Seed Character Base Demo/char_a_p1/char_a_p1_0bas_humn_v01.png<>uid://drb8l4ic5ihyw::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028190340.png<>uid://cwa4f81l5iqi5::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028191428.png<>uid://b0vufvdwglteb::::res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028192537.png
+main_compatible.tscn::PackedScene::7597288182310403966::1733815382::0::1::::<><>::uid://c4abtwc83dn2r::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/props.png<>uid://cs1wx622r6m72::::res://enemy.tscn<>uid://dekuddgd2l4s5::::res://Aset-Aset Pemrograman Game/Village/village_template.png<>uid://cfcn1oqho2pd7::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified transparent.png<>uid://bnkadtpk1ld7f::::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/tileset - simplified.png<>uid://cdsdavjdj0481::::res://tilemap-gras/template2.png<>uid://rbboqksn27j6::::res://tilemap-gras/template.png<>uid://dp86iny14d8n6::::res://main_character.tscn
 menu.gd::GDScript::-1::1733812096::0::1::::<>Control<>::
-menu.tscn::PackedScene::8999336815229494503::1733812096::0::1::::<><>::res://menu.gd<>uid://daw126oxgmeye::::res://AssaAss (1).png
-player.gd::GDScript::-1::1733812096::0::1::::<>CharacterBody2D<>::
+menu.tscn::PackedScene::8999336815229494503::1733814207::0::1::::<><>::res://menu.gd<>uid://b0olrd7ep28pm::::res://AssaAss (1).png
+player.gd::GDScript::-1::1733814731::0::1::::<>CharacterBody2D<>::
 README.md::TextFile::-1::1733812096::0::1::::<><>::
-::res://Aset-Aset Pemrograman Game/::1733812096
+::res://Aset-Aset Pemrograman Game/::1733812164
 boolets.png::CompressedTexture2D::2433873970682010508::1733812096::1733812164::1::::<><>::
-::res://Aset-Aset Pemrograman Game/Modern/::1733812096
+::res://Aset-Aset Pemrograman Game/Modern/::1733812165
 modern_template.png::CompressedTexture2D::5442671146489691535::1733812096::1733812164::1::::<><>::
 purple_car.png::CompressedTexture2D::534449151747225933::1733812096::1733812165::1::::<><>::
 road_barrier1.png::CompressedTexture2D::6186512219171658778::1733812096::1733812165::1::::<><>::
@@ -27,7 +27,7 @@ street_lamp1.png::CompressedTexture2D::4713352634413003252::1733812096::17338121
 street_lamp2.png::CompressedTexture2D::3533800775428997525::1733812096::1733812164::1::::<><>::
 traffic_cone.png::CompressedTexture2D::2481358678821561288::1733812096::1733812164::1::::<><>::
 traffic_light.png::CompressedTexture2D::2658500605101293128::1733812096::1733812164::1::::<><>::
-::res://Aset-Aset Pemrograman Game/Village/::1733812096
+::res://Aset-Aset Pemrograman Game/Village/::1733812166
 bush1.png::CompressedTexture2D::8290944055313076386::1733812096::1733812162::1::::<><>::
 bush2.png::CompressedTexture2D::6765938105188631917::1733812096::1733812162::1::::<><>::
 bush3.png::CompressedTexture2D::7615034319065804288::1733812096::1733812162::1::::<><>::
@@ -39,12 +39,12 @@ lamp.png::CompressedTexture2D::356514181065640403::1733812096::1733812166::1::::
 left_side_tree.png::CompressedTexture2D::2339769852597184633::1733812096::1733812165::1::::<><>::
 tree.png::CompressedTexture2D::5027667552718867609::1733812096::1733812165::1::::<><>::
 village_template.png::CompressedTexture2D::7461881067420805214::1733812096::1733812165::1::::<><>::
-::res://Aset-Aset Pemrograman Game/Village/Enemy/::1733812096
+::res://Aset-Aset Pemrograman Game/Village/Enemy/::1733812164
 slime_attack.png::CompressedTexture2D::8341833341452791149::1733812096::1733812164::1::::<><>::
 slime_blink.png::CompressedTexture2D::3259427217806681921::1733812096::1733812164::1::::<><>::
 slime_walk1.png::CompressedTexture2D::81487185417314812::1733812096::1733812163::1::::<><>::
 slime_walk2.png::CompressedTexture2D::3872040751201743118::1733812096::1733812163::1::::<><>::
-::res://Aset-Aset Pemrograman Game/Village/Player/::1733812096
+::res://Aset-Aset Pemrograman Game/Village/Player/::1733812163
 boolets.png::CompressedTexture2D::8415093972465928729::1733812096::1733812162::1::::<><>::
 Untitled249_20241028190340.png::CompressedTexture2D::8356561610841034434::1733812096::1733812163::1::::<><>::
 Untitled249_20241028191428.png::CompressedTexture2D::6318767423158349038::1733812096::1733812163::1::::<><>::
@@ -53,89 +53,89 @@ Untitled249_20241028213306.png::CompressedTexture2D::1213692170832974603::173381
 Untitled249_20241028213344.png::CompressedTexture2D::3815892538137259470::1733812096::1733812162::1::::<><>::
 Untitled249_20241028213430.png::CompressedTexture2D::287525740148955660::1733812096::1733812162::1::::<><>::
 ::res://FREE Mana Seed Character Base Demo/::1733812096
-::res://FREE Mana Seed Character Base Demo/char_a_p1/::1733812096
+::res://FREE Mana Seed Character Base Demo/char_a_p1/::1733812164
 char_a_p1_0bas_humn_v01.png::CompressedTexture2D::1604023995440937476::1733812096::1733812164::1::::<><>::
-::res://FREE Mana Seed Character Base Demo/char_a_p1/1out/::1733812096
+::res://FREE Mana Seed Character Base Demo/char_a_p1/1out/::1733812164
 char_a_p1_1out_boxr_v01.png::CompressedTexture2D::5464516958642555022::1733812096::1733812164::1::::<><>::
 char_a_p1_1out_fstr_v04.png::CompressedTexture2D::7191001778388105865::1733812096::1733812164::1::::<><>::
 char_a_p1_1out_pfpn_v04.png::CompressedTexture2D::1182477606911805992::1733812096::1733812164::1::::<><>::
 char_a_p1_1out_undi_v01.png::CompressedTexture2D::1786742513775042613::1733812096::1733812164::1::::<><>::
-::res://FREE Mana Seed Character Base Demo/char_a_p1/4har/::1733812096
+::res://FREE Mana Seed Character Base Demo/char_a_p1/4har/::1733812164
 char_a_p1_4har_bob1_v01.png::CompressedTexture2D::361986720281352905::1733812096::1733812164::1::::<><>::
 char_a_p1_4har_dap1_v01.png::CompressedTexture2D::2929025732444571905::1733812096::1733812164::1::::<><>::
-::res://FREE Mana Seed Character Base Demo/char_a_p1/5hat/::1733812096
+::res://FREE Mana Seed Character Base Demo/char_a_p1/5hat/::1733812164
 char_a_p1_5hat_pfht_v04.png::CompressedTexture2D::8036460127271067414::1733812096::1733812164::1::::<><>::
 char_a_p1_5hat_pnty_v04.png::CompressedTexture2D::853928649000288378::1733812096::1733812164::1::::<><>::
-::res://FREE Mana Seed Character Base Demo/guides/::1733812096
+::res://FREE Mana Seed Character Base Demo/guides/::1733812164
 animations, page 1.png::CompressedTexture2D::7984550768420085691::1733812096::1733812164::1::::<><>::
 ::res://Hana Caraka Cozy Island - Free/::1733812096
-::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/::1733812096
+::res://Hana Caraka Cozy Island - Free/Hana Caraka Cozy Island - Free/::1733812164
 props.png::CompressedTexture2D::6808413640106333011::1733812096::1733812164::1::::<><>::
 Read Me.txt::TextFile::-1::1733812096::0::1::::<><>::
 tileset - simplified transparent.png::CompressedTexture2D::5128750853013582938::1733812096::1733812164::1::::<><>::
 tileset - simplified.png::CompressedTexture2D::3319525807515089353::1733812096::1733812164::1::::<><>::
 ::res://Small Forest Asset Pack/::1733812096
 ::res://Small Forest Asset Pack/Small Forest Asset Pack/::1733812096
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Bench and chest/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Bench and chest/::1733812164
 Bench.png::CompressedTexture2D::1865836741653145043::1733812096::1733812164::1::::<><>::
 Chest.png::CompressedTexture2D::1602744309120772357::1733812096::1733812164::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Bushes/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Bushes/::1733812164
 Bush-1.png::CompressedTexture2D::2947609030209945644::1733812096::1733812164::1::::<><>::
 Bush-2.png::CompressedTexture2D::5216877574800571480::1733812096::1733812161::1::::<><>::
 Bush-3.png::CompressedTexture2D::2636069454447504914::1733812096::1733812161::1::::<><>::
 Bush-4.png::CompressedTexture2D::200170288927565974::1733812096::1733812161::1::::<><>::
 Stump.png::CompressedTexture2D::1672709760454466225::1733812096::1733812161::1::::<><>::
 ::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/::1733812096
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Big wooden fence/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Big wooden fence/::1733812161
 Big-wooden-fence-1.png::CompressedTexture2D::803861955596906547::1733812096::1733812161::1::::<><>::
 Big-wooden-fence-2.png::CompressedTexture2D::3730382672335340789::1733812096::1733812161::1::::<><>::
 Big-wooden-fence-3.png::CompressedTexture2D::3996746437376640209::1733812096::1733812161::1::::<><>::
 Big-wooden-fence-4.png::CompressedTexture2D::7416145990466942343::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Stone fence/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Stone fence/::1733812161
 Stone-fence-1.png::CompressedTexture2D::1727842635015634865::1733812096::1733812161::1::::<><>::
 Stone-fence-2.png::CompressedTexture2D::5947908171842830053::1733812096::1733812161::1::::<><>::
 Stone-fence-3.png::CompressedTexture2D::3698284343587375885::1733812096::1733812161::1::::<><>::
 Stone-fence-4.png::CompressedTexture2D::6731993236268675602::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Wooden fence/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Fences/Wooden fence/::1733812161
 Wooden-fence-1.png::CompressedTexture2D::6231564181627409593::1733812096::1733812161::1::::<><>::
 Wooden-fence-2.png::CompressedTexture2D::9188869314043154029::1733812096::1733812161::1::::<><>::
 Wooden-fence-3.png::CompressedTexture2D::7406781909272181427::1733812096::1733812161::1::::<><>::
 Wooden-fence-4.png::CompressedTexture2D::8679257065771483645::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Flowers/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Flowers/::1733812161
 Flower-1.png::CompressedTexture2D::8341702009691670188::1733812096::1733812161::1::::<><>::
 Flower-2.png::CompressedTexture2D::2024636335272711533::1733812096::1733812161::1::::<><>::
 Flower-3.png::CompressedTexture2D::3150211636580854212::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Grass/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Grass/::1733812161
 Grass-1.png::CompressedTexture2D::1835130737962561324::1733812096::1733812161::1::::<><>::
 Grass-2.png::CompressedTexture2D::5649788148307129343::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Ground tileset/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Ground tileset/::1733812161
 Bright-grass-tileset.png::CompressedTexture2D::5491577969949064082::1733812096::1733812161::1::::<><>::
 Dark-grass-tileset.png::CompressedTexture2D::5541771162947402102::1733812096::1733812161::1::::<><>::
 Earth-tileset.png::CompressedTexture2D::889085666881232684::1733812096::1733812161::1::::<><>::
 Stone-path-tileset-horizontal.png::CompressedTexture2D::159520397042284967::1733812096::1733812161::1::::<><>::
 Stone-path-tileset-vertical.png::CompressedTexture2D::5631370433382387995::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Sculptures/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Sculptures/::1733812161
 Sculpture-1.png::CompressedTexture2D::285244871396669985::1733812096::1733812161::1::::<><>::
 Sculture-2.png::CompressedTexture2D::8128045025972062367::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Stones/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Stones/::1733812161
 Stone-1.png::CompressedTexture2D::5968497756973485035::1733812096::1733812161::1::::<><>::
 Stone-2.png::CompressedTexture2D::2653227690417711821::1733812096::1733812161::1::::<><>::
 ::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/::1733812096
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-1/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-1/::1733812161
 Tree-1-1.png::CompressedTexture2D::8693429005052641661::1733812096::1733812161::1::::<><>::
 Tree-1-2.png::CompressedTexture2D::1069035204670482694::1733812096::1733812161::1::::<><>::
 Tree-1-3.png::CompressedTexture2D::2792082152311811085::1733812096::1733812161::1::::<><>::
 Tree-1-4.png::CompressedTexture2D::7981388603115748422::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-2/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-2/::1733812161
 Tree-2-1.png::CompressedTexture2D::2921126430087635693::1733812096::1733812161::1::::<><>::
 Tree-2-2.png::CompressedTexture2D::4459976004945576526::1733812096::1733812161::1::::<><>::
 Tree-2-3.png::CompressedTexture2D::5387295951215756979::1733812096::1733812161::1::::<><>::
 Tree-2-4.png::CompressedTexture2D::8389112378074020119::1733812096::1733812161::1::::<><>::
-::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-3/::1733812096
+::res://Small Forest Asset Pack/Small Forest Asset Pack/Trees/Tree-3/::1733812161
 Tree-3-1.png::CompressedTexture2D::1914889760648371953::1733812096::1733812161::1::::<><>::
 Tree-3-2.png::CompressedTexture2D::6485825070667574585::1733812096::1733812161::1::::<><>::
 Tree-3-3.png::CompressedTexture2D::1532962102284136450::1733812096::1733812161::1::::<><>::
 Tree-3-4.png::CompressedTexture2D::2340576203660618064::1733812096::1733812161::1::::<><>::
-::res://tilemap-gras/::1733812096
+::res://tilemap-gras/::1733812161
 template2.png::CompressedTexture2D::5020749965894617960::1733812096::1733812161::1::::<><>::
 template.png::CompressedTexture2D::1195361294366000313::1733812096::1733812161::1::::<><>::
