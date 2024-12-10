@@ -1,0 +1,6 @@
+res://main_compatible.tscn
+res://enemy.tscn
+res://enemy.gd
+res://player.gd
+res://main_character.tscn
+res://menu.tscn

@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://dp86iny14d8n6"]
+[gd_scene load_steps=19 format=3 uid="uid://dp86iny14d8n6"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_edt53"]
 [ext_resource type="Texture2D" uid="uid://rj6lkvwm4tp0" path="res://Aset-Aset Pemrograman Game/Village/Player/Untitled249_20241028213306.png" id="2_ptof8"]
@@ -110,9 +110,6 @@ animations = [{
 radius = 23.5
 height = 61.0
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_bref7"]
-radius = 655.383
-
 [node name="CharacterBody2D" type="CharacterBody2D"]
 position = Vector2(54, 50)
 scale = Vector2(2, 2)
@@ -131,32 +128,3 @@ shape = SubResource("CapsuleShape2D_8qt33")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(0.5, 0.5)
-
-[node name="Timer" type="Timer" parent="."]
-wait_time = 0.578
-autostart = true
-
-[node name="Attack" type="Node2D" parent="."]
-
-[node name="BulletTimer" type="Timer" parent="Attack"]
-unique_name_in_owner = true
-wait_time = 1.5
-
-[node name="BulletAttackTimer" type="Timer" parent="Attack/BulletTimer"]
-unique_name_in_owner = true
-wait_time = 0.075
-
-[node name="EnemyDetectionArea" type="Area2D" parent="."]
-collision_layer = 4
-collision_mask = 4
-monitorable = false
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyDetectionArea"]
-position = Vector2(2, -1.5)
-shape = SubResource("CircleShape2D_bref7")
-
-[connection signal="timeout" from="Timer" to="." method="spawn_projectile"]
-[connection signal="timeout" from="Attack/BulletTimer" to="." method="_on_bullet_timer_timeout"]
-[connection signal="timeout" from="Attack/BulletTimer/BulletAttackTimer" to="." method="_on_bullet_attack_timer_timeout"]
-[connection signal="body_entered" from="EnemyDetectionArea" to="." method="_on_enemy_detection_area_body_entered"]
-[connection signal="body_exited" from="EnemyDetectionArea" to="." method="_on_enemy_detection_area_body_exited"]
